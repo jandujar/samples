@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01915508a39e2a9d5954d626 /* cocos2d.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2df9a7aedb5ab0d3c9bfd348 /* cocos2d.framework */; };
+		1945a0ab2f1d1b2799790169 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = b926a5ec14d1f3331b929e05 /* OpenAL.framework */; };
+		1d52e02c4591f3eea9481231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346e1718bbe6901492a62000 /* Foundation.framework */; };
+		2be0a25d76365b8c0dd1ba1b /* libGL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 802bf3394d2fe3b8300ad60d /* libGL.dylib */; };
+		440517ad44ec068dc0fbf444 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66202c468f98398845dabc79 /* AudioToolbox.framework */; };
+		67BBC50C161B6472002E5CC4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBC50B161B6472002E5CC4 /* Default.png */; };
+		67BBC50E161B6472002E5CC4 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBC50D161B6472002E5CC4 /* fps_images.png */; };
+		67BBC510161B6472002E5CC4 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBC50F161B6472002E5CC4 /* Icon-72.png */; };
+		67BBC512161B6472002E5CC4 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBC511161B6472002E5CC4 /* Icon-Small-50.png */; };
+		67BBC514161B6472002E5CC4 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBC513161B6472002E5CC4 /* Icon-Small.png */; };
+		67BBC516161B6472002E5CC4 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBC515161B6472002E5CC4 /* Icon-Small@2x.png */; };
+		67BBC518161B6472002E5CC4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBC517161B6472002E5CC4 /* Icon.png */; };
+		67BBC51A161B6472002E5CC4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBC519161B6472002E5CC4 /* Icon@2x.png */; };
+		67BBC51D161B6472002E5CC4 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 67BBC51C161B6472002E5CC4 /* iTunesArtwork */; };
+		67BBC522161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC525161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC528161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC52B161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC52E161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC531161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC534161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC537161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC53A161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC53D161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC540161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC543161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC546161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC549161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC54C161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC54F161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC552161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC556161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC559161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC55C161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC55F161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC562161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC565161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC568161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC56B161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC56E161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC572161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC575161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC578161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC57B161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC57E161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC581161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC584161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC587161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC58A161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC58D161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC590161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC594161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC597161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC59A161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC59D161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5A0161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5A3161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5A6161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5A9161B6472002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5AC161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5AF161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5B2161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5B5161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5B8161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5BB161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5BE161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5C1161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5C4161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5C7161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5CA161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5CD161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5D1161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5D8161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5DC161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5DF161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5E2161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5E5161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5E8161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5ED161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5F0161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5F3161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5F6161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5F9161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC5FD161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC601161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC604161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC606161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC60A161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC60E161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC611161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC616161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC61B161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC61F161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC622161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC625161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC62A161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC62D161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC630161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC635161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC639161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC63C161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC640161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC643161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC646161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC64B161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC64E161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC651161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC654161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC658161B6473002E5CC4 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		67BBC65D161B6473002E5CC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBC65C161B6473002E5CC4 /* main.m */; };
+		67BBC660161B6473002E5CC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBC65F161B6473002E5CC4 /* AppDelegate.m */; };
+		67BBC663161B6473002E5CC4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBC662161B6473002E5CC4 /* RootViewController.m */; };
+		67BBC666161B6473002E5CC4 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBC665161B6473002E5CC4 /* HelloWorldLayer.m */; };
+		67BBC675161B6668002E5CC4 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		67BBC676161B6668002E5CC4 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		67BBC680161B8170002E5CC4 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 67BBC67F161B8170002E5CC4 /* en.lproj */; };
+		67BBC682161B8178002E5CC4 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 67BBC681161B8178002E5CC4 /* es.lproj */; };
+		6b5b0d59fa897cee7e380b13 /* StellaMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1c9a4ea1655abdf52d3488d2 /* StellaMedia.framework */; };
+		cce628ee590d26ce60e6406e /* StellaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57fcc6ec14ff13f3bbd41aba /* StellaKit.framework */; };
+		e1fccbcae5c97bf831a1bf93 /* StellaGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53240cad20febcfdb4f97ffc /* StellaGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1c9a4ea1655abdf52d3488d2 /* StellaMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StellaMedia.framework; path = /opt/StellaSDK/mac/System/Library/Frameworks/StellaMedia.framework; sourceTree = "<absolute>"; };
+		2df9a7aedb5ab0d3c9bfd348 /* cocos2d.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cocos2d.framework; path = /opt/StellaSDK/mac/System/Library/Frameworks/cocos2d.framework; sourceTree = "<absolute>"; };
+		346e1718bbe6901492a62000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		53240cad20febcfdb4f97ffc /* StellaGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StellaGraphics.framework; path = /opt/StellaSDK/mac/System/Library/Frameworks/StellaGraphics.framework; sourceTree = "<absolute>"; };
+		57fcc6ec14ff13f3bbd41aba /* StellaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StellaKit.framework; path = /opt/StellaSDK/mac/System/Library/Frameworks/StellaKit.framework; sourceTree = "<absolute>"; };
+		66202c468f98398845dabc79 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		67BBC4F5161B6472002E5CC4 /* LocalizedCocos2dExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizedCocos2dExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BBC50B161B6472002E5CC4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		67BBC50D161B6472002E5CC4 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = Resources/fps_images.png; sourceTree = "<group>"; };
+		67BBC50F161B6472002E5CC4 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
+		67BBC511161B6472002E5CC4 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		67BBC513161B6472002E5CC4 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		67BBC515161B6472002E5CC4 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		67BBC517161B6472002E5CC4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		67BBC519161B6472002E5CC4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		67BBC51B161B6472002E5CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		67BBC51C161B6472002E5CC4 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
+		67BBC65B161B6473002E5CC4 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		67BBC65C161B6473002E5CC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67BBC65E161B6473002E5CC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67BBC65F161B6473002E5CC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67BBC661161B6473002E5CC4 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		67BBC662161B6473002E5CC4 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		67BBC664161B6473002E5CC4 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
+		67BBC665161B6473002E5CC4 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
+		67BBC667161B6473002E5CC4 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
+		67BBC67F161B8170002E5CC4 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en.lproj; path = Resources/en.lproj; sourceTree = "<group>"; };
+		67BBC681161B8178002E5CC4 /* es.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = es.lproj; path = Resources/es.lproj; sourceTree = "<group>"; };
+		802bf3394d2fe3b8300ad60d /* libGL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGL.dylib; path = /usr/X11/lib/libGL.dylib; sourceTree = "<absolute>"; };
+		a1b16589210286ae462feb71 /* StellaStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StellaStore.framework; path = /opt/StellaSDK/mac/System/Library/Frameworks/StellaStore.framework; sourceTree = "<absolute>"; };
+		b926a5ec14d1f3331b929e05 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = /System/Library/Frameworks/OpenAL.framework; sourceTree = "<absolute>"; };
+		d044e7486030bb338a9550e3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		f91e83310ecf6fa66a3d9315 /* Info-Stella.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Stella.plist"; path = "/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/Resources/Info-Stella.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67BBC4F2161B6472002E5CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1d52e02c4591f3eea9481231 /* Foundation.framework in Frameworks */,
+				e1fccbcae5c97bf831a1bf93 /* StellaGraphics.framework in Frameworks */,
+				cce628ee590d26ce60e6406e /* StellaKit.framework in Frameworks */,
+				2be0a25d76365b8c0dd1ba1b /* libGL.dylib in Frameworks */,
+				1945a0ab2f1d1b2799790169 /* OpenAL.framework in Frameworks */,
+				440517ad44ec068dc0fbf444 /* AudioToolbox.framework in Frameworks */,
+				01915508a39e2a9d5954d626 /* cocos2d.framework in Frameworks */,
+				6b5b0d59fa897cee7e380b13 /* StellaMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27a7f016736719f175aa4049 /* External frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732da8808416d729ef1fe740 /* StellaSDK frameworks */,
+				2ba933a210a15371dad64ee5 /* System frameworks */,
+				c25d537add72c6f284380ee1 /* Platform sources */,
+			);
+			name = "External frameworks";
+			sourceTree = "<group>";
+		};
+		2ba933a210a15371dad64ee5 /* System frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				d044e7486030bb338a9550e3 /* AppKit.framework */,
+				b926a5ec14d1f3331b929e05 /* OpenAL.framework */,
+				66202c468f98398845dabc79 /* AudioToolbox.framework */,
+				346e1718bbe6901492a62000 /* Foundation.framework */,
+				802bf3394d2fe3b8300ad60d /* libGL.dylib */,
+			);
+			name = "System frameworks";
+			sourceTree = "<group>";
+		};
+		44c8ac815d441c0857db1085 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				f91e83310ecf6fa66a3d9315 /* Info-Stella.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		67BBC4EA161B6472002E5CC4 = {
+			isa = PBXGroup;
+			children = (
+				67BBC509161B6472002E5CC4 /* LocalizedCocos2dExample */,
+				67BBC4F8161B6472002E5CC4 /* Frameworks */,
+				67BBC4F6161B6472002E5CC4 /* Products */,
+				44c8ac815d441c0857db1085 /* Resources */,
+				27a7f016736719f175aa4049 /* External frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67BBC4F6161B6472002E5CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67BBC4F5161B6472002E5CC4 /* LocalizedCocos2dExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67BBC4F8161B6472002E5CC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67BBC509161B6472002E5CC4 /* LocalizedCocos2dExample */ = {
+			isa = PBXGroup;
+			children = (
+				67BBC65E161B6473002E5CC4 /* AppDelegate.h */,
+				67BBC65F161B6473002E5CC4 /* AppDelegate.m */,
+				67BBC661161B6473002E5CC4 /* RootViewController.h */,
+				67BBC662161B6473002E5CC4 /* RootViewController.m */,
+				67BBC664161B6473002E5CC4 /* HelloWorldLayer.h */,
+				67BBC665161B6473002E5CC4 /* HelloWorldLayer.m */,
+				67BBC667161B6473002E5CC4 /* GameConfig.h */,
+				67BBC50A161B6472002E5CC4 /* Resources */,
+				67BBC65A161B6473002E5CC4 /* Supporting Files */,
+			);
+			path = LocalizedCocos2dExample;
+			sourceTree = "<group>";
+		};
+		67BBC50A161B6472002E5CC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67BBC681161B8178002E5CC4 /* es.lproj */,
+				67BBC67F161B8170002E5CC4 /* en.lproj */,
+				67BBC50B161B6472002E5CC4 /* Default.png */,
+				67BBC50D161B6472002E5CC4 /* fps_images.png */,
+				67BBC50F161B6472002E5CC4 /* Icon-72.png */,
+				67BBC511161B6472002E5CC4 /* Icon-Small-50.png */,
+				67BBC513161B6472002E5CC4 /* Icon-Small.png */,
+				67BBC515161B6472002E5CC4 /* Icon-Small@2x.png */,
+				67BBC517161B6472002E5CC4 /* Icon.png */,
+				67BBC519161B6472002E5CC4 /* Icon@2x.png */,
+				67BBC51B161B6472002E5CC4 /* Info.plist */,
+				67BBC51C161B6472002E5CC4 /* iTunesArtwork */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		67BBC65A161B6473002E5CC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67BBC65B161B6473002E5CC4 /* Prefix.pch */,
+				67BBC65C161B6473002E5CC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		732da8808416d729ef1fe740 /* StellaSDK frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53240cad20febcfdb4f97ffc /* StellaGraphics.framework */,
+				57fcc6ec14ff13f3bbd41aba /* StellaKit.framework */,
+				2df9a7aedb5ab0d3c9bfd348 /* cocos2d.framework */,
+				1c9a4ea1655abdf52d3488d2 /* StellaMedia.framework */,
+				a1b16589210286ae462feb71 /* StellaStore.framework */,
+			);
+			name = "StellaSDK frameworks";
+			sourceTree = "<group>";
+		};
+		c25d537add72c6f284380ee1 /* Platform sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Platform sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67BBC4F4161B6472002E5CC4 /* LocalizedCocos2dExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BBC66A161B6473002E5CC4 /* Build configuration list for PBXNativeTarget "LocalizedCocos2dExample" */;
+			buildPhases = (
+				67BBC4F1161B6472002E5CC4 /* Sources */,
+				67BBC4F2161B6472002E5CC4 /* Frameworks */,
+				67BBC4F3161B6472002E5CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			name = LocalizedCocos2dExample;
+			productName = LocalizedCocos2dExample;
+			productReference = 67BBC4F5161B6472002E5CC4 /* LocalizedCocos2dExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67BBC4EC161B6472002E5CC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 67BBC4EF161B6472002E5CC4 /* Build configuration list for PBXProject "LocalizedCocos2dExample-mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = 67BBC4EA161B6472002E5CC4;
+			productRefGroup = 67BBC4F6161B6472002E5CC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67BBC4F4161B6472002E5CC4 /* LocalizedCocos2dExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67BBC4F3161B6472002E5CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BBC50C161B6472002E5CC4 /* Default.png in Resources */,
+				67BBC50E161B6472002E5CC4 /* fps_images.png in Resources */,
+				67BBC510161B6472002E5CC4 /* Icon-72.png in Resources */,
+				67BBC512161B6472002E5CC4 /* Icon-Small-50.png in Resources */,
+				67BBC514161B6472002E5CC4 /* Icon-Small.png in Resources */,
+				67BBC516161B6472002E5CC4 /* Icon-Small@2x.png in Resources */,
+				67BBC518161B6472002E5CC4 /* Icon.png in Resources */,
+				67BBC51A161B6472002E5CC4 /* Icon@2x.png in Resources */,
+				67BBC51D161B6472002E5CC4 /* iTunesArtwork in Resources */,
+				67BBC675161B6668002E5CC4 /* (null) in Resources */,
+				67BBC676161B6668002E5CC4 /* (null) in Resources */,
+				67BBC680161B8170002E5CC4 /* en.lproj in Resources */,
+				67BBC682161B8178002E5CC4 /* es.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67BBC4F1161B6472002E5CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BBC522161B6472002E5CC4 /* (null) in Sources */,
+				67BBC525161B6472002E5CC4 /* (null) in Sources */,
+				67BBC528161B6472002E5CC4 /* (null) in Sources */,
+				67BBC52B161B6472002E5CC4 /* (null) in Sources */,
+				67BBC52E161B6472002E5CC4 /* (null) in Sources */,
+				67BBC531161B6472002E5CC4 /* (null) in Sources */,
+				67BBC534161B6472002E5CC4 /* (null) in Sources */,
+				67BBC537161B6472002E5CC4 /* (null) in Sources */,
+				67BBC53A161B6472002E5CC4 /* (null) in Sources */,
+				67BBC53D161B6472002E5CC4 /* (null) in Sources */,
+				67BBC540161B6472002E5CC4 /* (null) in Sources */,
+				67BBC543161B6472002E5CC4 /* (null) in Sources */,
+				67BBC546161B6472002E5CC4 /* (null) in Sources */,
+				67BBC549161B6472002E5CC4 /* (null) in Sources */,
+				67BBC54C161B6472002E5CC4 /* (null) in Sources */,
+				67BBC54F161B6472002E5CC4 /* (null) in Sources */,
+				67BBC552161B6472002E5CC4 /* (null) in Sources */,
+				67BBC556161B6472002E5CC4 /* (null) in Sources */,
+				67BBC559161B6472002E5CC4 /* (null) in Sources */,
+				67BBC55C161B6472002E5CC4 /* (null) in Sources */,
+				67BBC55F161B6472002E5CC4 /* (null) in Sources */,
+				67BBC562161B6472002E5CC4 /* (null) in Sources */,
+				67BBC565161B6472002E5CC4 /* (null) in Sources */,
+				67BBC568161B6472002E5CC4 /* (null) in Sources */,
+				67BBC56B161B6472002E5CC4 /* (null) in Sources */,
+				67BBC56E161B6472002E5CC4 /* (null) in Sources */,
+				67BBC572161B6472002E5CC4 /* (null) in Sources */,
+				67BBC575161B6472002E5CC4 /* (null) in Sources */,
+				67BBC578161B6472002E5CC4 /* (null) in Sources */,
+				67BBC57B161B6472002E5CC4 /* (null) in Sources */,
+				67BBC57E161B6472002E5CC4 /* (null) in Sources */,
+				67BBC581161B6472002E5CC4 /* (null) in Sources */,
+				67BBC584161B6472002E5CC4 /* (null) in Sources */,
+				67BBC587161B6472002E5CC4 /* (null) in Sources */,
+				67BBC58A161B6472002E5CC4 /* (null) in Sources */,
+				67BBC58D161B6472002E5CC4 /* (null) in Sources */,
+				67BBC590161B6472002E5CC4 /* (null) in Sources */,
+				67BBC594161B6472002E5CC4 /* (null) in Sources */,
+				67BBC597161B6472002E5CC4 /* (null) in Sources */,
+				67BBC59A161B6472002E5CC4 /* (null) in Sources */,
+				67BBC59D161B6472002E5CC4 /* (null) in Sources */,
+				67BBC5A0161B6472002E5CC4 /* (null) in Sources */,
+				67BBC5A3161B6472002E5CC4 /* (null) in Sources */,
+				67BBC5A6161B6472002E5CC4 /* (null) in Sources */,
+				67BBC5A9161B6472002E5CC4 /* (null) in Sources */,
+				67BBC5AC161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5AF161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5B2161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5B5161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5B8161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5BB161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5BE161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5C1161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5C4161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5C7161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5CA161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5CD161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5D1161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5D8161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5DC161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5DF161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5E2161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5E5161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5E8161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5ED161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5F0161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5F3161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5F6161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5F9161B6473002E5CC4 /* (null) in Sources */,
+				67BBC5FD161B6473002E5CC4 /* (null) in Sources */,
+				67BBC601161B6473002E5CC4 /* (null) in Sources */,
+				67BBC604161B6473002E5CC4 /* (null) in Sources */,
+				67BBC606161B6473002E5CC4 /* (null) in Sources */,
+				67BBC60A161B6473002E5CC4 /* (null) in Sources */,
+				67BBC60E161B6473002E5CC4 /* (null) in Sources */,
+				67BBC611161B6473002E5CC4 /* (null) in Sources */,
+				67BBC616161B6473002E5CC4 /* (null) in Sources */,
+				67BBC61B161B6473002E5CC4 /* (null) in Sources */,
+				67BBC61F161B6473002E5CC4 /* (null) in Sources */,
+				67BBC622161B6473002E5CC4 /* (null) in Sources */,
+				67BBC625161B6473002E5CC4 /* (null) in Sources */,
+				67BBC62A161B6473002E5CC4 /* (null) in Sources */,
+				67BBC62D161B6473002E5CC4 /* (null) in Sources */,
+				67BBC630161B6473002E5CC4 /* (null) in Sources */,
+				67BBC635161B6473002E5CC4 /* (null) in Sources */,
+				67BBC639161B6473002E5CC4 /* (null) in Sources */,
+				67BBC63C161B6473002E5CC4 /* (null) in Sources */,
+				67BBC640161B6473002E5CC4 /* (null) in Sources */,
+				67BBC643161B6473002E5CC4 /* (null) in Sources */,
+				67BBC646161B6473002E5CC4 /* (null) in Sources */,
+				67BBC64B161B6473002E5CC4 /* (null) in Sources */,
+				67BBC64E161B6473002E5CC4 /* (null) in Sources */,
+				67BBC651161B6473002E5CC4 /* (null) in Sources */,
+				67BBC654161B6473002E5CC4 /* (null) in Sources */,
+				67BBC658161B6473002E5CC4 /* (null) in Sources */,
+				67BBC65D161B6473002E5CC4 /* main.m in Sources */,
+				67BBC660161B6473002E5CC4 /* AppDelegate.m in Sources */,
+				67BBC663161B6473002E5CC4 /* RootViewController.m in Sources */,
+				67BBC666161B6473002E5CC4 /* HelloWorldLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		67BBC668161B6473002E5CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					"COCOS2D_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = macosx;
+				SYMROOT = "build-mac";
+			};
+			name = Debug;
+		};
+		67BBC669161B6473002E5CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = macosx;
+				SYMROOT = "build-mac";
+			};
+			name = Release;
+		};
+		67BBC66B161B6473002E5CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /opt/StellaSDK/mac/System/Library/Frameworks;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LocalizedCocos2dExample/Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					/usr/X11/include,
+					/opt/StellaSDK/mac/System/Library/Frameworks/cocos2d.framework/Headers,
+					/opt/StellaSDK/mac/System/Library/Frameworks/StellaMedia.framework/Headers,
+					/opt/StellaSDK/mac/System/Library/Frameworks/StellaStore.framework/Headers,
+				);
+				INFOPLIST_FILE = LocalizedCocos2dExample/Resources/Info.plist;
+				INSTALL_PATH = /opt/StellaSDK/mac/Applications;
+				LIBRARY_SEARCH_PATHS = /usr/X11/lib;
+				OTHER_CFLAGS = "-D__STELLA_VERSION_MAX_ALLOWED";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67BBC66C161B6473002E5CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = /opt/StellaSDK/mac/System/Library/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LocalizedCocos2dExample/Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					/usr/X11/include,
+					/opt/StellaSDK/mac/System/Library/Frameworks/cocos2d.framework/Headers,
+					/opt/StellaSDK/mac/System/Library/Frameworks/StellaMedia.framework/Headers,
+					/opt/StellaSDK/mac/System/Library/Frameworks/StellaStore.framework/Headers,
+				);
+				INFOPLIST_FILE = LocalizedCocos2dExample/Resources/Info.plist;
+				INSTALL_PATH = /opt/StellaSDK/mac/Applications;
+				LIBRARY_SEARCH_PATHS = /usr/X11/lib;
+				OTHER_CFLAGS = "-D__STELLA_VERSION_MAX_ALLOWED";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67BBC4EF161B6472002E5CC4 /* Build configuration list for PBXProject "LocalizedCocos2dExample-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BBC668161B6473002E5CC4 /* Debug */,
+				67BBC669161B6473002E5CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BBC66A161B6473002E5CC4 /* Build configuration list for PBXNativeTarget "LocalizedCocos2dExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BBC66B161B6473002E5CC4 /* Debug */,
+				67BBC66C161B6473002E5CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67BBC4EC161B6472002E5CC4 /* Project object */;
+}

@@ -1,0 +1,22 @@
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/bin/LocalizedCocos2dExample.ap_ \
+ : /Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/res/drawable/icon_android.png \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/res/values/strings.xml \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/bin/res/drawable/icon_android.png \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/Default.png \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/en.lproj \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/es.lproj \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/fps_images.png \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/Icon-72.png \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/Icon-Small-50.png \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/Icon-Small.png \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/Icon-Small@2x.png \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/Icon.png \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/Icon@2x.png \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/Info-Stella.plist \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/iTunesArtwork \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/en.lproj/Localizable.strings \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/en.lproj/logo.png \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/es.lproj/Localizable.strings \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/assets/Resources/es.lproj/logo.png \
+/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/LocalizedCocos2dExample-android/bin/AndroidManifest.xml \
