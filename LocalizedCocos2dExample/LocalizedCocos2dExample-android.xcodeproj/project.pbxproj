@@ -176,6 +176,13 @@
 		002207573a51c827fde50f99 /* libStellaStore.so */ = {isa = PBXFileReference; lastKnownFileType = file; name = libStellaStore.so; path = "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libStellaStore.so"; sourceTree = "<absolute>"; };
 		0d49550fbe63dd4b9c0b6098 /* libFoundation.so */ = {isa = PBXFileReference; lastKnownFileType = file; name = libFoundation.so; path = "/opt/StellaSDK/arm-google-android/System/Library/Frameworks/libFoundation.so"; sourceTree = "<absolute>"; };
 		276526b9af7e429d508b972a /* Info-Stella.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Stella.plist"; path = "/Volumes/DATOS/Desarrollo/iOs/stellaSDKSample/LocalizedCocos2dExample/Resources/Info-Stella.plist"; sourceTree = "<absolute>"; };
+		67751912161FF9F2006087D5 /* de.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = de.lproj; path = Resources/de.lproj; sourceTree = "<group>"; };
+		67751913161FF9F2006087D5 /* fr.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fr.lproj; path = Resources/fr.lproj; sourceTree = "<group>"; };
+		67751914161FF9F2006087D5 /* it.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = it.lproj; path = Resources/it.lproj; sourceTree = "<group>"; };
+		67751915161FF9F2006087D5 /* ja.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ja.lproj; path = Resources/ja.lproj; sourceTree = "<group>"; };
+		67751916161FF9F2006087D5 /* pt.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pt.lproj; path = Resources/pt.lproj; sourceTree = "<group>"; };
+		67751917161FF9F2006087D5 /* ru.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ru.lproj; path = Resources/ru.lproj; sourceTree = "<group>"; };
+		67751918161FF9F2006087D5 /* zh.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = zh.lproj; path = Resources/zh.lproj; sourceTree = "<group>"; };
 		67BBC4F5161B6472002E5CC4 /* libLocalizedCocos2dExample.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libLocalizedCocos2dExample.so; sourceTree = BUILT_PRODUCTS_DIR; };
 		67BBC50B161B6472002E5CC4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		67BBC50D161B6472002E5CC4 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = Resources/fps_images.png; sourceTree = "<group>"; };
@@ -274,6 +281,13 @@
 		67BBC50A161B6472002E5CC4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				67751912161FF9F2006087D5 /* de.lproj */,
+				67751913161FF9F2006087D5 /* fr.lproj */,
+				67751914161FF9F2006087D5 /* it.lproj */,
+				67751915161FF9F2006087D5 /* ja.lproj */,
+				67751916161FF9F2006087D5 /* pt.lproj */,
+				67751917161FF9F2006087D5 /* ru.lproj */,
+				67751918161FF9F2006087D5 /* zh.lproj */,
 				67BBC686161B81EC002E5CC4 /* en.lproj */,
 				67BBC687161B81EC002E5CC4 /* es.lproj */,
 				67BBC50B161B6472002E5CC4 /* Default.png */,

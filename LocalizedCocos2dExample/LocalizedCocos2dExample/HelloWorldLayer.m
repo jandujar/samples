@@ -49,7 +49,7 @@
         
         
 		// create and initialize a Label
-		CCLabelTTF *label = [CCLabelTTF labelWithString:NSLocalizedString(@"TITLE", @"Localized Title") fontName:@"Marker Felt" fontSize:40];
+		CCLabelTTF *label = [CCLabelTTF labelWithString:NSLocalizedString(@"TITLE", @"Localized Title") fontName:@"CalvinItal" fontSize:40];
 
 		// position the label on the center of the screen
 		label.position =  ccp( size.width /2 , size.height/2 );

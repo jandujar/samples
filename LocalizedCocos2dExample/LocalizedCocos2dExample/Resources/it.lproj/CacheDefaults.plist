@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Achievements</key>
+	<array>
+		<dict>
+			<key>EarnedDescription</key>
+			<string>Win one multiplayer match online</string>
+			<key>ID</key>
+			<string>gtc_beginner</string>
+			<key>Image</key>
+			<string>small_beginner.png</string>
+			<key>IsHidden</key>
+			<false/>
+			<key>Name</key>
+			<string>gtc_beginner</string>
+			<key>PreEarnedDescription</key>
+			<string>Win one multiplayer match online</string>
+			<key>Title</key>
+			<string>Beginner</string>
+		</dict>
+		<dict>
+			<key>EarnedDescription</key>
+			<string>Win three consecutive games online</string>
+			<key>ID</key>
+			<string>gtc_bronce</string>
+			<key>Image</key>
+			<string>small_bronce.png</string>
+			<key>IsHidden</key>
+			<false/>
+			<key>Name</key>
+			<string>gtc_bronce</string>
+			<key>PreEarnedDescription</key>
+			<string>Win three consecutive games online</string>
+			<key>Title</key>
+			<string>Bronce Medal</string>
+		</dict>
+		<dict>
+			<key>EarnedDescription</key>
+			<string>Win six consecutive games online</string>
+			<key>ID</key>
+			<string>gtc_silver</string>
+			<key>Image</key>
+			<string>small_silver.png</string>
+			<key>IsHidden</key>
+			<false/>
+			<key>Name</key>
+			<string>gtc_silver</string>
+			<key>PreEarnedDescription</key>
+			<string>Win six consecutive games online</string>
+			<key>Title</key>
+			<string>Silver Medal</string>
+		</dict>
+		<dict>
+			<key>EarnedDescription</key>
+			<string>Win ten consecutive games online</string>
+			<key>ID</key>
+			<string>gtc_gold</string>
+			<key>Image</key>
+			<string>small_gold.png</string>
+			<key>IsHidden</key>
+			<false/>
+			<key>Name</key>
+			<string>gtc_gold</string>
+			<key>PreEarnedDescription</key>
+			<string>Win ten consecutive games online</string>
+			<key>Title</key>
+			<string>Gold Medal</string>
+		</dict>
+	</array>
+</dict>
+</plist>
